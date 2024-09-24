@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    background:url("back3.png") fixed center ;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat    ;
+    /* background-color: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
+    
+    
+}
+
+.nav-main-email{
+    width: 100%;
+    height: 5rem;
+    background-color: transparent   ;
+    display: flex;
+    
+    
+}
+
+.main-container{
+    /* width: 100%;  */
+    height: 200vh;
+    background-color:transparent;
+   
+    
+   
+    
+}
+
+.monkey{
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    left: 1px;
+    max-width: 12%;
+    transition: all 1s ease/*cubic-bezier(.9, 1.01, 1, -0.68)*/;
+    transform: translate(1px, 70px)
+    
+}
+.monkey:hover{
+    transform: translateY(-5cm);
+    
+    
+}
+
+
+.email     {
+    width: 30%;
+   
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    background-color: rgb(41, 40, 40);;
+    border-radius: 15px;
+}
+
+.email a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}
+.gapdiv{
+   width: 5%;
+   
+}
+
+.main-navbar{
+    height: 5rem;
+    width: 55%;
+    background-color:rgb(41, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.nav-anc{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: x-large;
+    cursor: pointer;
+    transition: transform 0.3s ease 0s;
+    
+}
+.nav-anc:hover {
+    color:rgb(11, 241, 230);
+    transform:translateY(-8px);
+    
+   
+}
+#hi{
+    color: white;
+    padding-right:10px;
+    font-size:25px;
+}
+#hi :hover {
+    color:rgb(11, 241, 230);
+}
+.home-main-container{
+    height: 80vh;
+    /* width: 100%;     */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    
+    
+}
+
+ 
+.content h1{
+    
+    font-size: 50px;
+   font-style: italic;
+   color: rgb(11, 241, 230);
+    
+}
+.content h2{
+    
+    font-size: 50px;
+   font-style: italic;
+   color: white;
+    
+}
+.content p{
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 2rem;
+    max-width: 800px;
+    line-height: 50px;
+    word-spacing: 10px;
+    color: white;
+    
+    
+}
+.live-photo{
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    object-fit: cover;
+
+}
+
+.dash{
+    height: 5px;
+    background-color: #403d39;
+    border-radius: 8px;
+}
+.aboutme{
+    height: auto;
+    /* width: 100%;     */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    padding: 20PX;
+    margin-top: 100PX;
+}
+
+#about-me{
+  
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 2rem;
+    max-width: 800px;
+    
+    color: white;
+    line-height: 25px;
+    word-spacing: 5px;
+  
+}
+
+#about-me p{
+    line-height: 50px;
+}
+#one{
+    line-height: 50px;
+}
+#about-me h2{
+    font-size: 50px;
+   font-style: italic;
+   color: rgb(11, 241, 230);
+
+}
+#aboutme ul li{
+    margin-bottom: 10px;
+}
+.skills{
+    height: 90vh;
+    background-color: transparent;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+
+}
+.skills-main h2{
+    font-size: 50px;
+   font-style: italic;
+   color: rgb(11, 241, 230);
+}
+
+.skills-main i{
+    font-size: 100px;
+    color: red;
+    padding: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease 0s;
+    
+
+}
+.skills-main i:hover{
+    transform: translateY(-10px);
+}
+
+#contact a{
+    height: auto;
+    width: auto;
+    color:red;
+    font-size: 70px;
+}
+.linkedin{
+    display: flex;
+}
+#contact a{
+    color: red;
+    margin-right: 20px;
+}
+.contact-details{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    
+}
+/* .contact-me{
+    height: 80vh;
+    width: 50%;
+    margin-bottom: 60px;
+    color: rgb(11, 241, 230);
+    font-size: xx-large;
+    font-style: italic;
+    background-color: white; */
+/* } */
+.linkedin{
+    height: 80vh;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.innerdiv{
+    width: 30%;
+    display: flex;
+}
+.linkedin h1{
+    color: rgb(11, 241, 230);
+    font-size: 50px;
+    font-style: italic; 
+    margin-bottom: 20px;
+}
+.nav-anc1{
+    cursor: pointer;
+    transition: transform 2s ease;
+}
+.nav-anc1 :hover{
+    transform: scale(1.1);
+    color:rgb(11, 241, 230);
+}
+.messagebox{
+    height: 80vh;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.butt1{
+
+    height: 60px;
+    width: 70%;
+    background-color: rgb(52, 50, 50);
+    color: white;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-size: x-large; 
+    
+}
+form{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50PX;
+}
+.messagebox form input{
+    margin-bottom: 20px;
+}
+.messagebox form textarea{
+    height: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+.messagebox form button{
+    height: 60px;
+    width: 72%;
+    color: rgb(11, 241, 230);;
+}
+.comingsoon{
+    height: auto;
+    font-size: 50px;
+    color: #161615;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.footer select{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    color:white;
+    border: 3px solid grey;
+    border-radius: 10px;
+    font-size: x-large;
+    margin-right: 20px
+}
+.icons{
+    color: white;
+    font-size: x-large;
+    margin-right: 5px;
+}
+.footer {
+    color: white;
+    margin-left:10px ;
+    font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+        padding: 0;
+    }
+
+    /* Ensures the navbar remains horizontal */
+    .nav-main-email {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .main-navbar {
+        flex-direction: row; /* Changed from column to row for horizontal alignment */
+        width: 100%;
+        justify-content: space-around; /* Ensure equal spacing */
+        margin-bottom: 20px;
+    }
+
+    .nav-anc {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .email {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .email a {
+        font-size: 18px;
+    }
+
+    /* Monkey image and text side-by-side */
+    .home-main-container {
+        flex-direction: row; /* Change direction to row for side-by-side layout */
+        justify-content: center;
+        align-items: center; /* Align both elements centrally */
+        height: auto;
+        padding: 30px;
+    }
+
+    .monkey {
+        max-width: 30%; /* Adjust size for mobile */
+        transform: translate(0, 20px);
+        margin-right: 20px; /* Add space between monkey and text */
+    }
+
+    .content {
+        text-align: left;
+        padding-top: 100px;
+        height: 40vh; /* Keep the text left-aligned */
+        max-width: 100%; /* Ensure text stays within this width */
+    }
+
+    .content h1, .content h2 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 15px;
+        line-height: 2;
+    }
+
+    .video .live-photo {
+        display: none;
+    }
+
+    .aboutme {
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    #about-me {
+        font-size: 18px;
+        padding: 20px;
+        height: auto    ;
+    }
+
+    #about-me h2 {
+        font-size: 30px;
+    }
+
+    .skills {
+        flex-direction: column;
+        height: 80vh;
+        padding: 20px;
+    }
+
+    .skills-main i {
+        font-size: 50px;
+    }
+
+    .contact-details {
+        flex-direction: column;
+        height: 90vh;
+        width: 100%;
+    }
+    .linkedin h1{
+        width: 80%;
+    }
+    .linkedin .innerdiv{
+        width: 80%;
+        height: auto;
+    }
+    
+
+    .linkedin, .messagebox {
+        width: 100%;
+    }
+    .messagebox form {
+        padding-bottom:70px ;
+    }
+   
+    .messagebox form input{
+        width: 80%;
+    }
+    .messagebox form textarea{
+        width: 80%;
+    }
+    .messagebox form button{
+        width: 85%;
+        
+    }
+    .footer {
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+
+    .footer select {
+        width: 80px;
+        font-size: small;
+        height: 30px;
+        margin: 5px 0;
+    }
+}
