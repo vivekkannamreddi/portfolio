@@ -141,11 +141,12 @@ body{
     
     
 }
-.live-photo{
-    width: 300px;
-    height: auto;
-    border-radius: 100%;
+.profile{
+    width: 400px;
+    height: 470px;
+    border-radius: 40px;
     object-fit: cover;
+    box-shadow: 0 0 3px 0.9;
 
 }
 
@@ -237,17 +238,27 @@ body{
     height: 80vh;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
-/* .contact-me{
-    height: 80vh;
+.contact{
+    height: 80%;
     width: 50%;
-    margin-bottom: 60px;
-    color: rgb(11, 241, 230);
-    font-size: xx-large;
-    font-style: italic;
-    background-color: white; */
-/* } */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.skill-main .innerdiv>a>i{
+    font-size: 80px;
+    color: red;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease 0s;
+}
+
 .linkedin{
     height: 80vh;
     width: 50%;
@@ -258,8 +269,10 @@ body{
 
 }
 .innerdiv{
-    width: 30%;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .linkedin h1{
     color: rgb(11, 241, 230);
@@ -276,10 +289,10 @@ body{
     color:rgb(11, 241, 230);
 }
 .messagebox{
-    height: 80vh;
+    height: 80%;
     width: 50%;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -359,16 +372,15 @@ form{
         padding: 0;
     }
 
-    /* Ensures the navbar remains horizontal */
     .nav-main-email {
         flex-direction: column;
         height: auto;
     }
     
     .main-navbar {
-        flex-direction: row; /* Changed from column to row for horizontal alignment */
+        flex-direction: row; 
         width: 100%;
-        justify-content: space-around; /* Ensure equal spacing */
+        justify-content: space-around; 
         margin-bottom: 20px;
     }
 
@@ -387,26 +399,25 @@ form{
         font-size: 18px;
     }
 
-    /* Monkey image and text side-by-side */
     .home-main-container {
-        flex-direction: row; /* Change direction to row for side-by-side layout */
+        flex-direction: row; 
         justify-content: center;
-        align-items: center; /* Align both elements centrally */
+        align-items: center; 
         height: auto;
         padding: 30px;
     }
 
     .monkey {
-        max-width: 30%; /* Adjust size for mobile */
+        max-width: 30%; 
         transform: translate(0, 20px);
-        margin-right: 20px; /* Add space between monkey and text */
+        margin-right: 20px; 
     }
 
     .content {
         text-align: left;
         padding-top: 100px;
-        height: 40vh; /* Keep the text left-aligned */
-        max-width: 100%; /* Ensure text stays within this width */
+        height: 40vh; 
+        max-width: 100%; 
     }
 
     .content h1, .content h2 {
