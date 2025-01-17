@@ -296,7 +296,7 @@ body{
     background-image: url();
     background-size: contain;
     background-repeat:no-repeat;
-    animation: change 20s infinite ease;
+    animation: change 20s infinite ease-in-out;
     
 }
 @keyframes change {
@@ -310,13 +310,13 @@ body{
         background-image: url(quiz.png);
     }
     60%{
-        background-image: url(RockPaper.png);
+        background-image: url(notes.png);
     }
     80%{
-        background-image: url(GRP.png);
+        background-image: url();
     }
     100%{
-        background-image: url(RockPaper.png);
+        background-image: url();
     }
 }
 
