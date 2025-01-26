@@ -280,6 +280,13 @@ body{
     font-style: italic; 
     margin-bottom: 20px;
 }
+.projects-hedding h1{
+    color:aqua;
+    position:relative;
+    left:200px;
+    top:30px;
+    font-size:45px
+}
 
 .projects-main{
     height: 80vh;
