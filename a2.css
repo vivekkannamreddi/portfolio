@@ -318,6 +318,11 @@ body{
     
 }
 
+.main-Projects-container{
+    height: 80vh;
+    width: 100%;
+}
+
 
 /* .projects11>img{
     height: inherit;
