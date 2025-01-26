@@ -53,7 +53,7 @@ body{
 
 .email     {
     width: 30%;
-   
+    flex-shrink: 0;
     display: flex;
     justify-content:space-around ;
     align-items: center;
@@ -64,8 +64,8 @@ body{
 .email a {
     color: white;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: large;
 }
 .gapdiv{
    width: 5%;
@@ -85,8 +85,8 @@ body{
 .nav-anc{
     color: white;
     text-decoration: none;
-    font-weight: 600;
-    font-size: x-large;
+    font-weight:500 ;
+    font-size: large;
     cursor: pointer;
     transition: transform 0.3s ease 0s;
     
